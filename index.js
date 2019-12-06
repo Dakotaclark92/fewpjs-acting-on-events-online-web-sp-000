@@ -1,7 +1,7 @@
 let dodger = document.getElementById("dodger");
 
 function moveDodgerLeft() {
-  let leftNumber = dodger.style.left.replace("px", "");
+  let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt (leftNumbers, 10);
   
   if (left > 0) {
@@ -10,7 +10,7 @@ function moveDodgerLeft() {
 }
 
 function moveDodgerRight() {
-  let rightNumber = dodger.style.right.replace("px", "");
+  let rightNumbers = dodger.style.right.replace("px", "");
   let right = parseInt (rightNumbers, 10);
   
   if (right > 0) {
